@@ -1,0 +1,50 @@
+
+Verify the type of ATM machine, if it is completely touch-enabled, with both keypad buttons only or both.
+
+Verify that the user is presented with options when the card is inserted correctly.
+
+Check that no option to continue and enter credentials is displayed to the user when the card is inserted incorrectly.
+
+Verify that the touch of the ATM screen is smooth and operational.
+
+Verify that the user is presented with the option to choose a language for further operations.
+
+Check that the user is asked to enter pin number before displaying any card/bank account detail.
+
+Verify that there is a limited number of attempts up to which the user is allowed to enter pin code.
+
+Verify that if a total number of incorrect pin attempts gets surpassed then the user is not allowed to continue further. And operations like temporary blocking of the card, etc get initiated.
+
+Check that the pin is displayed in masked form when entered.
+
+Verify that the user is presented with different account type options like- saving, current, etc.
+
+Verify that the user is allowed to get account details like available balance.
+
+Check that the correct amount of money gets withdrawn as entered by the user for cash withdrawal.
+
+Verify that the user is only allowed to enter the amount in multiples of denominations as per the specifications.
+
+Verify that the user is prompted to enter the amount again in case the amount entered is less than the minimum amount configured.
+
+Check that the user cannot withdraw more amount than the total available balance and a proper message should be displayed.
+
+Verify that the user is provided the option to get the transaction details in printed form.
+
+Verify that the user’s session timeout is maintained.
+
+Check that the user is not allowed to exceed one transaction limit amount.
+
+Verify that the user is not allowed to exceed the one-day transaction limit amount.
+
+Verify that the user is allowed to do only one transaction per pin request.
+
+Check that in case the ATM machine runs out of money, a proper message is displayed to the user.
+
+Verify that the applicable fee gets deducted along with the withdrawn amount in case the user exceeds the limit of the number of free transactions in a month.
+
+Verify that the applicable fee gets deducted along with the withdrawn amount in case the user uses the card of a bank other than that of an ATM.
+
+Check that the user is not allowed to proceed with the expired ATM card and a proper error message gets displayed.
+
+Verify that in case of sudden electricity loss before withdrawing cash, the transaction is marked as null and the amount is not withdrawn from the user’s account.
